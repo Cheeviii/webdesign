@@ -1,0 +1,85 @@
+.container2 {
+    width: 400px;
+    margin: auto;
+    padding: 350px;
+}
+
+.box {
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.card {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+    text-decoration: none;
+}
+
+.esqueci {
+    transform: translate(-25%, -70%);
+    text-decoration: none;
+    color: white;
+
+}
+
+.esqueci:hover {
+    color: rgb(125, 48, 250);;
+}
+
+input {
+    border: none;
+}
+
+.input-usuario{
+    padding: 5%;
+    margin: 3%;
+    outline: none;
+    background: rgb(24, 24, 24);
+    color: white;
+    transition: all 0.5s;
+}
+
+.input-senha:hover {
+    padding: 7%;
+}
+
+.entrar-btn {
+    width: 100%;
+    max-width: 250px;
+    padding: 4%;
+    outline: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background: rgb(98, 0, 255);
+    font-size: 1.1rem;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+
+.entrar-btn:hover {
+    max-width: 300px;
+}
+
+.voltar {
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(48, 48, 48);
+    transition: all 0.5s;
+    font-size: 16px;
+}
+
+.voltar:hover {
+    font-size: 20px;
+}

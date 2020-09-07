@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a22f83e9e3.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="Login.js"></script>
+    
+<!--     CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="responsive.css">
+
+<!--     Titulo Da Pagina -->
+    <title>Cheevi | Login </title>
+</head>
+<body>
+    <header class="header">
+        <ul class="main-nav">
+            <li class="logo">
+                <a href="index.html"><img src="logo.png" alt="Logo" draggable="false"></a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container2">
+        <div class="box">
+            <div class="card">
+
+                <h1>Login</h1>
+
+                <input class="input-usuario" id="username" type="text" name="usuario" placeholder="Usuario" autocomplete="off"><br>
+                <input class="input-senha" id="password" type="password" name="senha" placeholder="Senha"><br>
+                <a class="esqueci" href="recuperarsenha.html">
+                    <p>Esqueci minha senha</p>
+                </a>
+
+                <a>
+                    <button onclick="logar()" class="entrar-btn" >Entrar</button>
+                </a>
+
+                <p class="register">Ainda não tem uma conta? <a href="register.html">Registrar-se</a></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
