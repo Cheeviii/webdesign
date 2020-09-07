@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px) {
+    .sdfg {
+      transform: translate(0, -50%);
+  }  
+}
+
+@media only screen and (max-width: 700px) {
+  .container h1{
+      font-size: 2rem;
+  }
+
+  .main {
+      width: 100%;
+      max-width: 1250px;
+  }
+
+  .sdfg-main i {
+      font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container h1 {
+      font-size: 1.5rem;
+  }
+
+  .container p {
+      font-size: 1rem;
+  }
+
+  .main {
+      width: 100%;
+      max-width: 1250px;
+  }
+
+  .sdfg-main i {
+      font-size: 2rem;
+  }
+}
