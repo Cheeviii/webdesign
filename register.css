@@ -1,0 +1,77 @@
+.logo img {
+    margin-left: 400px;
+
+}
+
+.container2 {
+    width: 400px;
+    margin: auto;
+    padding: 150px;
+}
+
+.box {
+    background: rgb(32, 32, 36);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.card {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+    text-decoration: none;
+}
+
+input {
+    border: none;
+}
+
+.input-usuario, .input-senha, .input-email {
+    padding: 5%;
+    margin: 3%;
+    outline: none;
+    background: rgb(24, 24, 24);
+    color: white;
+    transition: all 0.5s;
+}
+
+.input-senha:hover, .input-usuario:hover, .input-email:hover {
+    padding: 7%;
+}
+
+.entrar-btn {
+    width: 100%;
+    max-width: 250px;
+    padding: 4%;
+    outline: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background: rgb(98, 0, 255);
+    font-size: 1.1rem;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+
+.entrar-btn:hover {
+    max-width: 300px;
+}
+
+.register {
+    color: rgb(92, 92, 92);
+}
+
+.register a {
+    text-decoration: none;
+    color: rgb(164, 4, 238);
+}
